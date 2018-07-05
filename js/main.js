@@ -133,7 +133,6 @@ function getRandomStar(){
 
 var randomStarsId = setInterval(function(){
     var star = getRandomStar();
-
     star.drawStar();
     console.log(star);
     stars.push(star);
