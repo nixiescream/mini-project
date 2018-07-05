@@ -1,7 +1,6 @@
 var canvas = document.getElementById('starry-night');
 var ctx = canvas.getContext('2d');
 
-var isDown = false;
 var x1;
 var y1;
 var x2;
@@ -49,9 +48,9 @@ Star.prototype.drawStar = function(){
     ctx.lineTo(cx,cy-outerRadius);
     ctx.closePath();
     ctx.lineWidth = 5;
-    ctx.strokeStyle= 'yellow'; //color;
+    ctx.strokeStyle= 'yellow';
     ctx.stroke();
-    ctx.fillStyle='yellow'; //color;
+    ctx.fillStyle='yellow';
     ctx.fill();
 }
 
